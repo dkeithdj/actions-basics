@@ -33,9 +33,9 @@ export const GET = async (req: Request) => {
     ).toString();
 
     const payload: ActionGetResponse = {
-      title: "Actions Example - Transfer Native SOL",
-      icon: new URL("/vercel.svg", requestUrl.origin).toString(),
-      description: "Transfer SOL to another Solana wallet",
+      title: "Transfer SOL to another Solana Wallet",
+      icon: new URL("/purple-moon.png", requestUrl.origin).toString(),
+      description: "Transfer SOL to Den's Solana wallet",
       label: "Transfer", // this value will be ignored since `links.actions` exists
       links: {
         actions: [
